@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best-Company-Store | Ecommerce Website Display</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<div class="header"><div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo111.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/bag1.jpg" width="30px" height="30px"></a>
+        <img src="images/menu-icon.png" class="menu-icon"
+        onclick="menutoggle()"> 
+
+
+    </div>
+        <!----------------------------- contact -------------------->
+        <div class="contact" width="80px" height="380px">
+            <div class="small-container">
+                <h2 class="tag">Contact Us</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/cont1.png" height="125px" width="15px">
+                        <h3>BY PHONE</h3>
+                         <h4 style="text-align: center; align-content: center;
+                         justify-content: center;"><strong>(Monday to Friday, 9am to 6pm)</strong><br>
+Nigerian Toll-Free: 234-877-930-7483<br>
+
+International:
+234-604-637-0780 </h4>
+                           </div>
+                           <div class="col-3">
+                            <img src="images/cont2.jpg" height="125px">
+                            <h3>COMMENCE A NEW CASE</h3>
+                             <h4 style="text-align: center; align-content: center;
+                             justify-content: center;">Just send us your questions or concerns by
+                              starting a new case and we will give you the help you need. </h4><br>
+                              <a href="caseform.html" class="btn">COMMENCE HERE &#8594;</a>
+                               </div>
+                               <div class="col-3">
+                                <img src="images/cont3.png" height="125px">
+                                <h3>LIVE CHAT</h3>
+                                 <h4 style="text-align: center; align-content: center;
+                                 justify-content: center;">Chat with a member of our in-house team. </h4><br>
+                                 <a href="chatbox.html" class="btn">COMMENCE CHAT &#8594;</a>
+
+                                   </div>
+                                </div>
+                </div>
+            </div>
+        </div>
+     <!-------------------------- footer ------------------->
+    
+    <div class="footer">
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3 style="margin-left: 15%;">Download Our App</h3>
+                    <p style="margin-left: 5%;">Our App is Responsive both on Android and ios</p>
+                    <div class="app-logo">
+                        <a href=""><img src="images/play-store.png" height="52.5px" style="margin-left: 15%;"></a><br>
+                        <a href=""><img src="images/app-logo.png" style="margin-left: 15%;"></a>
+                    </div>
+                </div>
+        
+                <div class="footer-col-2">
+                    <img src="images/logo111.png" style="justify-content: center;">
+                    <p>We are Here to Make Life at Ease for You with Our Best Stocks That are Only a Click Away from You!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Beneficial Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Joint Affiliate</li>
+                    </ul>
+                </div> 
+                <div class="footer-col-3" style="margin-left: 7%;">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li> 
+                        <li>Youtube</li>
+                    </ul>
+                </div> 
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Good-Deal Resources</p>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <!--------- js for toggle menu ------------->
+    
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+    
+        function menutoggle() {
+            if (MenuItems.style.maxHeight = "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            MenuItems.style.maxHeight = "0px"
+        };
+    
+    </script>
+    
+    
+    
+    
+    
+</body>
+</html>

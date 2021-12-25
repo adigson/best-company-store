@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best-Company-Store | Ecommerce Website Display</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<div class="header"><div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo111.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/bag1.jpg" width="30px" height="30px"></a>
+        <img src="images/menu-icon.png" class="menu-icon"
+        onclick="menutoggle()"> 
+
+    </div>
+    </div>
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2 class="tag">All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by Price</option>
+                <option>Sort by Popularity</option>
+                <option>Sort by Rating</option>
+                <option>Sort by Sale</option>
+            </select>
+        </div>
+        <div class="row">
+        <div class="col-4">
+            <img src="images/tshirt.jpg" width="80px" height="380px">
+            <h4>Sportee T-Shirt</h4>
+            <div class="grading">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$90.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/item4c.png" width="80px" height="380px">
+            <h4>White Brown Mic-Cake</h4>
+            <div class="grading">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/sandalsum6.png" width="80px" height="380px">
+            <h4>Glossory-Stripped Head Lady Sleepers</h4>
+            <div class="grading">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/hsf1.png" width="80px" height="380px">
+            <h4>Gray-Scrotchet-HeadGear</h4>
+            <div class="grading">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$25.00</p>
+        </div> 
+        <div class="row">
+            <div class="col-4">
+                <img src="images/item4b.png" width="80px" height="380px">
+                <h4>Whole Chocolate Cake</h4>
+                <div class="grading">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/kaftanpink.jpg" width="80px" height="380px">
+                <h4>Emboidered-Pink Lady Gown</h4>
+                <div class="grading">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$95.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/sandals.jpg" width="80px" height="380px">
+                <h4>Light Brown Sandals-Shoes</h4>
+                <div class="grading">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$128.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/makes7.png" width="80px" height="380px">
+                <h4>Kid's Yellowish Brown Black-Laced Shirt</h4>
+                <div class="grading">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$85.00</p>
+            </div> 
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/item4f.png" width="80px" height="380px">
+                    <h4>Yellowish Rose-Head Cake</h4>
+                    <div class="grading">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$70.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/headgearback.png" width="80px" height="380px">
+                    <h4>White Stripped Red Head-Gear</h4>
+                    <div class="grading">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$120.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/trainers.jpg" width="80px" height="380px">
+                    <h4>Authentic Easy-Going Trainers</h4>
+                    <div class="grading">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$130.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/Nobleq.png" width="80px" height="380px">
+                    <h4>The Noble Quran</h4>
+                    <div class="grading">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$70.00</p>
+                </div> 
+                <div class="page-btn">
+                    <span><a href="product.html">1</a></span>
+                    <span><a href="product2.html">2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>&#8594;</span>
+               </div>
+        </div>
+
+<!-------------------------- footer ------------------->
+    
+<div class="footer">
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="footer-col-1">
+                <h3 style="margin-left: 15%;">Download Our App</h3>
+                <p style="margin-left: 5%;">Our App is Responsive both on Android and ios</p>
+                <div class="app-logo">
+                    <a href=""><img src="images/play-store.png" height="52.5px" style="margin-left: 15%;"></a><br>
+                    <a href=""><img src="images/app-logo.png" style="margin-left: 15%;"></a>
+                </div>
+            </div>
+    
+            <div class="footer-col-2">
+                <a href="index.html"><img src="images/logo111.png" width="125px" style="justify-content: center;"></a>
+                <p>We are Here to Make Life at Ease for You with Our Best Stocks That are Only a Click Away from You!</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Beneficial Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Joint Affiliate</li>
+                </ul>
+            </div> 
+            <div class="footer-col-3" style="margin-left: 7%;">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li> 
+                    <li>Youtube</li>
+                </ul>
+            </div> 
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - Good-Deal Resources</p>
+    </div>
+</div>
+
+
+
+
+
+
+<!--------- js for toggle menu ------------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight = "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        MenuItems.style.maxHeight = "0px"
+    };
+
+</script>
+
+
+
+
+
+</body>
+</html>

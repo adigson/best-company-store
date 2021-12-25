@@ -11,36 +11,391 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 <body>
-
-<div class="container">
+<div class="header"><div class="container">
     <div class="navbar">
         <div class="logo">
-            <img src="images/logo1.jpg" width="125px">
+            <a href="index.html"><img src="images/logo111.png" width="125px"></a>
         </div>
         <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contacts</a></li>
-                <li><a href="">Account</a></li>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
             </ul>
         </nav>
+        <a href="cart.html"><img src="images/bag1.jpg" width="30px" height="30px"></a>
+        <img src="images/menu-icon.png" class="menu-icon"
+        onclick="menutoggle()"> 
+
+
     </div>
     <div class="row">
         <div class="col-2">
-            <h1>In Whatever You Do;<br> always go for the best!</h1>
-            <p>The required best to be precise; is what gives you an edge
-                over your mates;<br> Don't ever settle for what goes against 
-                this. Be consistent, prudent and forward-looking!
-            </p>
-            <a href="" class="btn"></a>
-        </div>
+            <h1>
+                In Everything You Do;<br>Always Go for the Best!
+            </h1>
+            <p>
+                Whatever item you eventually settle for in whichever of our sections,<br> you'll have chosen nothing but the required best.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+           </p>
+            <a href="account.html" class="btn">Begin Here &#8594;</a>        </div>
         <div class="col-2">
             <img src="images/calendar.png" width="750px" height="580px">
         </div>
     </div>
 </div>
+</div>
 
+<!----------------------featured sections--------->
+<div class="sections">
+    <div class="small-container">
+        <h2 class="tag">Featured Sections</h2>
+        <div class="row">
+            <div class="col-3">
+                <img src="images/fs1.png">
+            </div>
+            <div class="col-3">
+                <img src="images/fs2.png" height="500px">
+            </div>
+            <div class="col-3">
+                <img src="images/fs3.png">
+            </div>
+    
+        </div>
+    </div>
+    </div>
+
+    <!----------------- highlighted items --------->
+    <div class="small-container">
+        <h2 class="tag">Highlighted Items</h2>
+        <div class="row">
+        <div class="col-4">
+            <img src="images/hi1.png" width="550px" height="380px">
+            <h4>A Pair of Male Glossory Shoes</h4>
+            <div class="grading">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$80.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/hi2.png" height="380px">
+            <h4>Male Black-Emboidery White Djellabia</h4>
+            <div class="grading">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/hi3.png" height="380px">
+            <h4>Islamic Monotheism</h4>
+            <div class="grading">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$100.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/hi4.png" height="380px">
+            <h4>Necklace Customized Cake</h4>
+            <div class="grading">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$25.00</p>
+        </div> 
+        </div>
+
+        <h2 class="tag">Most Recent Items</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/mr1.png" width="80px" height="380px">
+                <h4>Pairs of Ladies Sleepers</h4>
+                <div class="grading">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$75.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/mr2.png" width="80px" height="380px">
+                <h4>Girl Multi-Colour Belted Black Gown</h4>
+                <div class="grading">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$75.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/mr3.png" width="80px" height="380px">
+                <h4>History of Makkah</h4>
+                <div class="grading">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$00.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/mr4.png" width="80px" height="380px">
+                <h4>Unicorn-Customized Cake</h4>
+                <div class="grading">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$15.00</p>
+            </div> 
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/mr5.png" width="80px" height="380px">
+                    <h4>Unisex Trekers</h4>
+                    <div class="grading">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$90.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/mr6.png" width="80px" height="380px">
+                    <h4>Complete Muslim Woman's Jalbaab</h4>
+                    <div class="grading">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$100.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/mr7.png" width="80px" height="380px">
+                    <h4>The Python Handbook<h4>
+                    <div class="grading">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$00.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/mr8.png" width="80px" height="380px">
+                    <h4>1-Stars Customized Cake</h4>
+                    <div class="grading">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$20.00</p>
+                </div> 
+            
+    </div>
+
+        <!-------- offer --------->
+        <div class="render">
+            <div class="small-container">
+               
+                <h2 class="tag">Special Offer</h2>
+                <div class="row">
+                <div class="col-2">
+                    <a href="productdetails.html"><img src="images/gallery.png" class="render-img"
+                        style="display: flex; align-items: center; background: lightgrey;
+                        justify-content: center; width: 600px; height: 600px;"></a>
+                </div>
+            </div>
+                    
+                <div class="row">
+                <div class="col-2">
+                    <p>Specially made available <i><strong>for you</strong></i> on Best-Company-Store</p>
+                   <h1>White Kurta-Thobe by BJX!</h1>
+                   <small>The 'White Kurta-Thobe' is adjudged the best clothing colored-texture in Islaam and you
+                       see most religious of men cherishing it dearly. With its plain background and easy-to-wash
+                       surface as well as the accompanying footings, adorning it makes you look gracely and equally
+                       more observedly to every keen beholder!</small><br>
+                   <a href="cart.html" class="btn">Order Now &#8594;</a>
+           
+                </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------- testimonial -------------------->
+        <div class="testimonial" width="80px" height="380px">
+            <div class="small-container">
+                <h2 class="tag">Testimonial</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                         <p style="text-align: center; align-content: center;
+                         justify-content: center;">Shopping from online platforms is not a new concept for customers and 
+                            retailers. But over the years this concept has caught the hype and 
+                            influenced various emerging businesses to migrate their retail shops to 
+                            an e-commerce platform. One of such doing great is Best-Company-Store!</p>
+                            <div class="grading">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/test1.png">
+                            <h3>Lagbaja Adelebor</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                         <p style="text-align: center; align-content: center;
+                         justify-content: center;">Online shopping at Best-Company-Store is an experience that always turn me on; their display of recent
+                             items easily made it easy for me to get along with what is in vogue!</p>
+                            <div class="grading">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/test2.png">
+                            <h3>Tamedu Manny</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                         <p style="text-align: center; align-content: center;
+                         justify-content: center;">Best-Company-Store is a unique e-commerce platform; I got facscinated especially by their gut at giving out
+                             gifts and rendering discount. Their delivery is perfect and buying with them always give me an edge above 
+                             my colleagues who bought similar items from else where; both the quality and quantity; is second to none!.</p>
+                            <div class="grading">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/test3.png">
+                            <h3>Lakashegbe Omydan</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!----------------------brands------------------------>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/obrand1.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/obrand2.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/obrand3.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/obrand4.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/obrand5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------- footer ------------------->
+    
+    <div class="footer">
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3 style="margin-left: 15%;">Download Our App</h3>
+                    <p style="margin-left: 5%;">Our App is Responsive both on Android and ios</p>
+                    <div class="app-logo">
+                        <a href=""><img src="images/play-store.png" height="52.5px" style="margin-left: 15%;"></a><br>
+                        <a href=""><img src="images/app-logo.png" style="margin-left: 15%;"></a>
+                    </div>
+                </div>
+        
+                <div class="footer-col-2">
+                    <a href="index.html"><img src="images/logo111.png" width="125px" style="justify-content: center;"></a>
+                    <p>We are Here to Make Life at Ease for You with Our Best Stocks That are Only a Click Away from You!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Beneficial Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Joint Affiliate</li>
+                    </ul>
+                </div> 
+                <div class="footer-col-3" style="margin-left: 7%;">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li> 
+                        <li>Youtube</li>
+                    </ul>
+                </div> 
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Good-Deal Resources</p>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <!--------- js for toggle menu ------------->
+    
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+    
+        function menutoggle() {
+            if (MenuItems.style.maxHeight = "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            MenuItems.style.maxHeight = "0px"
+        };
+    
+    </script>
+    
+    
+    
+    
+    
 </body>
 </html>
