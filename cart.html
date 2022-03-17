@@ -23,6 +23,12 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="account.html">Account</a></li>
+                <li><form id="searchForm" role="search">
+                    <input type="search" id="query" name="q" placeholder="Search..."
+                    aria-label="Search through site content">
+                    <button>Search</button>
+                    </form>
+                </li>
             </ul>
         </nav>
         <a href="cart.html"><img src="images/bag1.jpg" width="30px" height="30px"></a>
@@ -44,7 +50,7 @@
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="images/gallery.png">
+                    <a href="productdetails.html"><img src="images/gallery.png"></a>
                     <div>
                         <p>White Khurta-Thobe</p>
                         <small>Price: $50:00</small>
@@ -104,6 +110,19 @@
                 <td>$230:00</td>
             </tr>
         </table>
+        <div>
+        <span id="checkout">
+            <a href="checkout.html">
+            Checkout
+            </a>
+        </span>
+    </div>
+<!--   <div style="position: fixed; bottom: 0px; left: 0px;">
+        <input type="button" value="Save" class="btn btn-danger" />
+    </div> -->
+
+
+
     </div>
 </div>
     <!-------------------------- footer ------------------->
